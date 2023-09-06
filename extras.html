@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações Extras</title>
+</head>
+<body>
+    <div>
+        <h1>HTML</h1>
+    </div>
+    <div>
+        <h1>CSS</h1>
+        <p>O '*' pode ser utilizado para indicar todo o conteúdo;</p>
+        <p>O 'rem' é uma medida constante em todo documento;</p>
+    </div>
+    <div>
+        <h1>JavaScript</h1>
+        <h2>Requisição HTTP</h2>
+
+        <p>URL: https://pokeapi.co/api/v2/pokemon/1</p>
+        <p>${Endereço}/${path = caminho de identificação do recurso}${ID}</p>
+        
+        <p>Endereço: https://pokeapi.co</p>
+        <p>IP: https://127.0.0.1:8080</p>
+
+        <p>Path: /api/v2/pokemon</p>
+
+        <p>ID: Identificação do recurso</p>
+
+        <p>O que fazer com o recurso:</p>
+        
+        <h3>Request Method</h3>
+        <ul>
+            <li>GET: Pegar;</li>
+            <li>POST: Inserir;</li>
+            <li>PUT: Atualizar;</li>
+            <li>DELETE: Deletar;</li>
+        </ul>
+
+        <p>URL: https://pokeapi.co/api/v2/pokemon?type=Grass</p>
+        <p>Querry String(GET): Tudo que vem depois da '?', filtro de estrutura
+            chave=valor, mais de um parametro utilizar o '&'chave=valor</p>
+        <p>Exemplo: https://pokeapi.co/api/v2/pokemon?offset=151&limit=102</p>
+        <p>Neste caso, está sendo requesitado os pokemons da segunda geração</p>
+        <p>offset= a partir do número</p>
+        <p>limit= número máximo</p>
+
+        <h3>Request/Response Header</h3>
+        <p>Configuração da API</p>
+
+        <p>Exemplo Request:</p>
+        <p>Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7</p>
+
+        <p>Exemplo Response:</p>
+        <p>Content-Type:application/json; charset=utf-8</p>
+
+        <h3>Request Body(POST)</h3>
+        <p>O corpo do conteúdo, é o 'content-type' retornado pelo response header</p>
+        <p>Body{
+            "name":"Teste"
+        }
+        </p>
+
+        <h3>Status Code</h3>
+        <p>O que aconteceu com a requisição</p>
+        <p>200 - 299: OK</p>
+        <p>300 - 399: Redirected</p>
+        <p>400 - 499: ERRO por parte do cliente</p>
+        <p>500 - 599: ERRO interno do servidor</p>
+        <link href="https://httpstatusdogs.com" alt="Status Code Dog">
+
+        <h2>Resposta da Requisição HTTP</h2>
+        <p>Status Code: 200 OK</p>
+        <p>Response Headers</p>
+        <p>Response Body</p>
+
+        <p>Utilizar do fetch para fazer a comunicação</p>
+    </div>
+    </div>
+</body>
+</html>
